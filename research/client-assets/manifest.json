@@ -1,0 +1,38 @@
+{
+  "collected_on": "2026-10-05",
+  "purpose": "Внутренняя подборка первого этапа; не опубликовано на сайте.",
+  "publication_permission": "approved_by_user",
+  "assets": [
+    {
+      "file": "am-beauty-concept-logo.jpg",
+      "label": "Логотип AM Beauty Concept",
+      "source_url": "https://www.facebook.com/photo/?fbid=122100472899259590&set=a.122100384345259590",
+      "dimensions": [
+        834,
+        826
+      ],
+      "format": "JPEG",
+      "sha256": "4a1285616552c9fa0eeb63a6ff3e2580e801880f7cef95e440981204895e99d2",
+      "usage_note": "Возможный логотип в шапке / подвале; растровый исходник из Facebook.",
+      "publication_permission": "approved_by_user",
+      "permission_confirmed_on": "2026-10-05"
+    },
+    {
+      "file": "foot-care-example.jpg",
+      "label": "Пример работы, опубликованный автором как до/после",
+      "source_url": "https://www.facebook.com/photo/?fbid=122270471234133179",
+      "dimensions": [
+        2048,
+        1652
+      ],
+      "format": "JPEG",
+      "sha256": "bcf2e4af1c9b1c0b6aaf44f860cf92a4d266847314bae338dee917197a708e9c",
+      "usage_note": "Кандидат для отдельного блока примеров работ, не для первого экрана.",
+      "publication_permission": "approved_by_user",
+      "permission_confirmed_on": "2026-10-05"
+    }
+  ],
+  "permission_confirmed_on": "2026-10-05",
+  "permission_source": "Ответ пользователя на вопрос о двух отобранных материалах: «Да, логотип и фото разрешены».",
+  "permission_scope": "Использование двух перечисленных материалов на создаваемом сайте AM Beauty Concept."
+}

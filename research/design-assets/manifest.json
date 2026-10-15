@@ -1,0 +1,11 @@
+{
+  "created_on": "2026-10-05",
+  "asset": "wellness-still-life.png",
+  "type": "decorative_generated_image",
+  "tool": "image_gen (built-in)",
+  "prompt": "Use case: photorealistic-natural. Asset type: decorative editorial hero photograph for a refined French foot care and body beauty studio website. Primary request: a quiet, tactile wellness still life, portrait 4:5 composition. On a pale warm limestone surface, a loosely folded ivory cotton towel drapes from the lower left, a low handmade cream ceramic bowl holding clear still water sits on the right, a smooth warm gray river stone beside it, and one delicate olive twig casts a subtle shadow. Soft directional daylight from a window out of frame, gentle shadows, natural fine texture, subtle film grain, warm ivory and sand with restrained muted olive colors. Objects concentrated in lower two thirds; breathable uncluttered background above. Sophisticated editorial photography, calm and understated, not a product advertisement or spa collage. No people, no feet, no hands, no room interior, no branded products, no candles, no text, no logos, no watermark. This is a decorative fictional still life, not a representation of the actual business premises. High quality, realistic physical materials, quiet composition.",
+  "usage_note": "Декоративная постановочная иллюстрация для первого экрана. Не изображает реальный кабинет, специалиста или результат процедуры.",
+  "original_output": "/home/alexander/.codex/generated_images/01a0f7f1-adfd-7db1-a653-b7e462355928/exec-7035ca4f-fbee-45ea-ba69-bd5bdea4baad.png",
+  "served_file": "dist/assets/wellness-still-life.webp",
+  "encoding": "WebP quality 0.84, browser Canvas; original dimensions and composition preserved"
+}

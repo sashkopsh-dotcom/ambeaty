@@ -1,0 +1,11 @@
+{
+  "name": "am-beauty-concept",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Site vitrine AM Beauty Concept — Aneta Miernik, Cluses",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "check": "python3 scripts/check.py && node --check dist/script.js"
+  },
+  "engines": { "node": ">=18" }
+}
