@@ -94,15 +94,28 @@ nav a:hover { text-decoration: underline; }
 .foot-copy .large-copy { font-family: var(--serif); font-size: 23px; color: var(--light-ink); line-height: 1.55; }
 .foot-copy .small-label { margin-top: 25px; font-size: 9px; }
 .foot-services { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 36px; }
-.foot-service { padding: 25px 0; border-top: 1px solid #59685d; }
+.foot-service { position: relative; display: flex; flex-direction: column; align-items: flex-start; padding: 28px 0; border-top: 1px solid #59685d; }
 .foot-service h3 { font-size: 25px; }
 .foot-service p { font-size: 13px; margin-top: 13px; color: var(--light-muted); }
+.foot-service:hover h3 { color: var(--gold-light); }
+.foot-service:focus-within { outline: 2px solid var(--gold-light); outline-offset: 8px; }
+.foot-service .service-meta { width: 100%; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; margin-top: auto; padding-top: 24px; }
+.service-price { font-family: var(--serif); font-size: 34px; line-height: 1.2; color: var(--gold-light); white-space: nowrap; }
+.service-duration { font-size: 12px; white-space: nowrap; }
+.service-booking { margin-top: 14px; font-size: 12px; gap: 10px; }
+.service-booking::after { content: ''; position: absolute; inset: 0; }
+.foot-notes { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 36px; padding-top: 30px; border-top: 1px solid #59685d; }
+.foot-notes h3 { font-size: 23px; margin-bottom: 12px; }
+.foot-notes p { max-width: 460px; font-size: 13px; color: var(--light-muted); }
+.foot-notes p + p { margin-top: 10px; }
+.foot-notes .text-link { margin-top: 12px; font-size: 12px; }
 @media (min-width: 701px) and (max-width: 1050px) {
   .foot-services { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 700px) {
   .foot-services { grid-template-columns: 1fr; }
   .foot-service { padding: 21px 0; }
+  .foot-notes { grid-template-columns: 1fr; gap: 26px; padding-top: 26px; }
 }
 .silhouette-section { background: var(--warm-surface); }
 .silhouette-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: end; margin-bottom: 52px; }
