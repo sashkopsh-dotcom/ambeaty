@@ -142,12 +142,6 @@ nav a:hover { text-decoration: underline; }
 .panel-top, .panel-bottom { font-size: 9px; text-transform: uppercase; letter-spacing: .2em; }
 .about-copy h2 { font-size: clamp(34px, 3.7vw, 51px); margin-bottom: 26px; }
 .about-copy p:not(.eyebrow) { font-size: 14px; margin-bottom: 20px; }
-.work-section { padding: 15px 0 100px; display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
-.work-intro h2 { font-size: 45px; margin-bottom: 24px; }
-.work-intro > p:not(.eyebrow) { max-width: 300px; font-size: 13px; }
-.work-section figure { padding: 20px; border: 1px solid var(--line); }
-.work-section figure img { width: 100%; height: auto; }
-figcaption { font-size: 9px; text-transform: uppercase; letter-spacing: .1em; padding-top: 14px; color: var(--muted); }
 .visit-section { background: var(--surface); border-block: 1px solid var(--line); }
 .visit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
 .visit-intro { font-size: 14px; margin-top: 28px; max-width: 340px; }
@@ -210,13 +204,12 @@ details p { font-size: 13px; padding: 0 35px 24px 0; }
   .hero-seal svg { width: 23px; height: 23px; }
   .hero-subtitle { font-size: 21px; }
   .section-space { padding-block: 76px; }
-  .foot-layout, .silhouette-heading, .beauty-layout, .about-section, .work-section, .visit-grid, .faq-section { gap: 50px; }
+  .foot-layout, .silhouette-heading, .beauty-layout, .about-section, .visit-grid, .faq-section { gap: 50px; }
   .treatment { gap: 12px; padding-right: 20px; }
   .treatment:nth-child(even) { padding-left: 23px; }
   .treatment-art { width: 40px; height: 40px; }
   .treatment h3 { font-size: 25px; }
   .brand-panel { padding: 35px; }
-  .work-intro h2 { font-size: 38px; }
   address { font-size: 25px; }
   .address-card { padding-left: 25px; }
 }
@@ -255,7 +248,7 @@ details p { font-size: 13px; padding: 0 35px 24px 0; }
   .visit-strip p { font-size: 10px; }
   .visit-strip p:last-of-type { padding-left: 30px; }
   .strip-line, .explore-link { display: none; }
-  .foot-layout, .silhouette-heading, .beauty-layout, .about-section, .work-section, .visit-grid, .faq-section { grid-template-columns: 1fr; gap: 30px; }
+  .foot-layout, .silhouette-heading, .beauty-layout, .about-section, .visit-grid, .faq-section { grid-template-columns: 1fr; gap: 30px; }
   .beauty-symbol { width: 44px; height: 44px; margin-bottom: 14px; }
   .beauty-copy > p { font-size: 13px; }
   .beauty-copy .large-copy { font-size: 23px; }
@@ -277,9 +270,6 @@ details p { font-size: 13px; padding: 0 35px 24px 0; }
   .brand-panel img { width: 210px; margin-block: 25px; }
   .about-copy h2 { font-size: 37px; }
   .about-copy p:not(.eyebrow) { font-size: 13px; }
-  .work-section { padding: 0 0 66px; }
-  .work-intro h2 { font-size: 38px; }
-  .work-section figure { padding: 12px; }
   .visit-intro { margin-top: 24px; font-size: 13px; }
   .address-card { margin-top: 5px; padding: 27px 0 0; border: 0; border-top: 1px solid #c7cabb; }
   .address-icon { float: right; width: 29px; height: 29px; }
