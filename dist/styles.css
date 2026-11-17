@@ -83,13 +83,18 @@ nav a:hover { text-decoration: underline; }
 .explore-link span { margin-left: 20px; font-size: 17px; }
 .foot-section { background: var(--green); color: var(--light-ink); }
 .foot-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 44px 100px; align-items: center; }
+.direction-copy h2 { margin-bottom: 26px; }
+.direction-visual { width: 100%; max-width: 480px; margin: 0; justify-self: end; }
+.direction-visual img { width: 100%; height: auto; aspect-ratio: 1; border-radius: 3px; }
+.direction-visual figcaption { margin-top: 12px; color: var(--gold); font-size: 9px; letter-spacing: .08em; text-align: right; }
+.direction-reverse > .direction-copy { order: 2; }
+.direction-reverse > .direction-visual { order: 1; justify-self: start; }
+.foot-section .direction-visual figcaption { color: var(--gold-light); }
 .foot-section .eyebrow, .foot-section h2 em { color: var(--gold-light); }
 .foot-section .text-link { color: var(--light-ink); }
 .foot-section .text-link:hover { color: var(--gold-light); }
 .foot-section h2 { max-width: 480px; }
 .foot-section h2 em { display: block; }
-.section-symbol { display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; margin-bottom: 20px; border: 1px solid var(--gold-light); border-radius: 50%; color: var(--gold-light); }
-.section-symbol svg { width: 28px; height: 28px; }
 .foot-copy > p { font-size: 14px; margin-bottom: 18px; color: var(--light-muted); }
 .foot-copy .large-copy { font-family: var(--serif); font-size: 23px; color: var(--light-ink); line-height: 1.55; }
 .foot-copy .small-label { margin-top: 25px; font-size: 9px; }
@@ -118,8 +123,8 @@ nav a:hover { text-decoration: underline; }
   .foot-notes { grid-template-columns: 1fr; gap: 26px; padding-top: 26px; }
 }
 .silhouette-section { background: var(--warm-surface); }
-.silhouette-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: end; margin-bottom: 52px; }
-.silhouette-heading > p { font-size: 14px; max-width: 430px; padding-bottom: 5px; }
+.silhouette-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; margin-bottom: 52px; }
+.silhouette-heading .direction-copy > p:not(.eyebrow) { font-size: 14px; max-width: 430px; }
 .treatment-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
 .treatment { display: flex; align-items: start; gap: 20px; padding: 38px 30px 38px 0; border-bottom: 1px solid var(--line); }
 .treatment:nth-child(even) { padding-left: 40px; border-left: 1px solid var(--line); }
@@ -132,7 +137,6 @@ nav a:hover { text-decoration: underline; }
 .lashes-section { background: var(--surface); }
 .beauty-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
 .beauty-layout h2 em { color: var(--gold); }
-.beauty-symbol { width: 52px; height: 52px; color: var(--gold); margin-bottom: 18px; stroke-width: 1; }
 .beauty-copy > p { max-width: 460px; font-size: 14px; margin-bottom: 22px; }
 .beauty-copy .large-copy { color: var(--ink); font-family: var(--serif); font-size: 25px; line-height: 1.4; margin-bottom: 16px; }
 .about-section { display: grid; grid-template-columns: .9fr 1.1fr; gap: 105px; align-items: center; }
@@ -249,15 +253,16 @@ details p { font-size: 13px; padding: 0 35px 24px 0; }
   .visit-strip p:last-of-type { padding-left: 30px; }
   .strip-line, .explore-link { display: none; }
   .foot-layout, .silhouette-heading, .beauty-layout, .about-section, .visit-grid, .faq-section { grid-template-columns: 1fr; gap: 30px; }
-  .beauty-symbol { width: 44px; height: 44px; margin-bottom: 14px; }
+  .direction-copy h2 { margin-bottom: 24px; }
+  .direction-visual, .direction-reverse > .direction-visual { max-width: 420px; justify-self: start; }
+  .direction-reverse > .direction-copy, .direction-reverse > .direction-visual { order: 0; }
   .beauty-copy > p { font-size: 13px; }
   .beauty-copy .large-copy { font-size: 23px; }
-  .section-symbol { display: none; }
   .foot-copy .large-copy { font-size: 21px; }
   .foot-copy > p { font-size: 13px; }
   .foot-copy .small-label { font-size: 8px; letter-spacing: .07em; }
   .silhouette-heading { margin-bottom: 35px; }
-  .silhouette-heading > p { font-size: 13px; }
+  .silhouette-heading .direction-copy > p:not(.eyebrow) { font-size: 13px; }
   .treatment-grid { grid-template-columns: 1fr; }
   .treatment, .treatment:nth-child(even) { padding: 26px 0; border-left: 0; gap: 15px; }
   .treatment h3 { font-size: 27px; }
