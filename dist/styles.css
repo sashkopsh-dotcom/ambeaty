@@ -69,10 +69,10 @@ nav a:hover { text-decoration: underline; }
 .hero-photo { border-radius: 240px 240px 5px 5px; position: relative; }
 .hero-photo::before { content: ''; position: absolute; inset: -12px 12px 12px -12px; border: 1px solid #c1b38f; border-radius: inherit; pointer-events: none; }
 .hero-photo img { position: relative; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: inherit; }
-.hero-seal { position: absolute; left: -34px; bottom: 60px; width: 116px; height: 116px; border-radius: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center; background: var(--paper); border: 1px solid var(--gold); outline: 7px solid var(--paper); color: var(--ink); }
-.hero-seal svg { width: 29px; height: 29px; color: var(--gold); margin-bottom: 4px; }
-.hero-seal span { font-family: var(--serif); font-size: 21px; line-height: 1.15; text-align: center; }
-.hero-seal small { display: block; font-family: var(--sans); font-size: 8px; letter-spacing: .14em; text-transform: uppercase; margin-top: 6px; }
+.hero-seal { position: absolute; left: -34px; bottom: 60px; width: 116px; height: 116px; padding: 10px; border-radius: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4px; background: var(--paper); border: 1px solid var(--gold); outline: 7px solid var(--paper); color: var(--ink); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+.hero-seal svg { width: 29px; height: 29px; color: var(--gold); }
+.hero-seal > span { font-family: var(--serif); font-size: 21px; line-height: 1.2; text-align: center; }
+.hero-seal > small { display: block; font-family: var(--sans); font-size: 8px; line-height: 1.4; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap; }
 .photo-caption { text-transform: uppercase; font-size: 8px; letter-spacing: .2em; text-align: right; margin-top: 20px; color: var(--muted); }
 .visit-strip { border-block: 1px solid var(--line); }
 .visit-strip > div { display: flex; gap: 28px; align-items: center; min-height: 78px; }
@@ -203,8 +203,8 @@ details p { font-size: 13px; padding: 0 35px 24px 0; }
   .hero h1 { font-size: clamp(54px, 7.5vw, 78px); }
   .hero .button-row { gap: 16px; }
   .hero .button { padding-inline: 17px; gap: 10px; }
-  .hero-seal { width: 92px; height: 92px; left: -10px; }
-  .hero-seal span { font-size: 18px; }
+  .hero-seal { width: 104px; height: 104px; left: -10px; }
+  .hero-seal > span { font-size: 18px; }
   .hero-seal svg { width: 23px; height: 23px; }
   .hero-subtitle { font-size: 21px; }
   .section-space { padding-block: 76px; }
@@ -246,7 +246,7 @@ details p { font-size: 13px; padding: 0 35px 24px 0; }
   .booking-note { margin-top: 15px; max-width: 280px; font-size: 9px; }
   .hero-visual { width: min(100% - 18px, 420px); margin-left: auto; padding: 10px 0 0 0; }
   .hero-photo img { aspect-ratio: 1 / 1.05; object-position: 50% 65%; }
-  .hero-seal { bottom: 50px; left: -17px; width: 93px; height: 93px; }
+  .hero-seal { bottom: 50px; left: -17px; }
   .photo-caption { margin-top: 17px; font-size: 7px; }
   .visit-strip > div { min-height: 92px; gap: 6px; flex-direction: column; align-items: flex-start; justify-content: center; }
   .visit-strip p { font-size: 10px; }
